@@ -27,3 +27,7 @@ BTF: Bidirectional Texture Function
   - **应用场景：** 常用于3D重建、形状优化、碰撞检测和形状表示等任务，因为其连续且有符号的特性可以提供丰富的几何信息。
 
 简单来说，**Range image** 主要关注从传感器视角直接测量的距离，而 **signed distance image** 则在此基础上增加了符号信息，用于更精确地描述空间中点与物体表面的关系。
+
+应用组件
+- Minkowski Engine. C. Choy, J. Gwak, and S. Savarese. 4d spatio-temporal convnets: Minkowski convolutional neural networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3075–3084, 2019.
+- sparse convolution.
