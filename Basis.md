@@ -63,4 +63,7 @@
 - 3D和更高维的空间中，dense representation is inefficient
 - normally, only save the non-empty part of the space as its coordinates and the associated features.
 - coordinates and associated features: N-dimensional extension of a sparse matrix -> sparse tensor
+- 有很多种存储形式：An investigation of sparse tensor formats for tensor libraries
+
+
 
