@@ -68,3 +68,14 @@
 ## RADAR vs LiDAR
 雷达 & 激光雷达
 
+## IMU sensors
+
+- 主要收集
+  - 加速度数据
+  - 角速度数据
+  - 磁场数据
+ 
+- 可以计算
+  - 姿态（Orientation）：俯仰角（Pitch）、横滚角（Roll）、偏航角（Yaw）。
+  - 运动轨迹（Motion Tracking）：速度、位移、倾斜、旋转等信息。
+  - 航向（Heading）：结合磁力计进行方位估计。
