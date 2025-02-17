@@ -28,7 +28,8 @@
 - F. Yu and V. Koltun. Multi-scale context aggregation by dilated convolutions. In ICLR, 2016.
 
 ## Spatio-Temporal
-
+- 4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks
+- MotionSC(使用了Spatio-Temporal Pyramid Network)
 ## dense or sparse convolutional
 ## whether computionally expensive(intensive)
 
