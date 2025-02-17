@@ -57,3 +57,10 @@
   - 难以直接处理
 
  Voxel Grid是为了方便数据处理，由点云等数据voxelization而来
+
+## Sparse Tensor
+
+- 3D和更高维的空间中，dense representation is inefficient
+- normally, only save the non-empty part of the space as its coordinates and the associated features.
+- coordinates and associated features: N-dimensional extension of a sparse matrix -> sparse tensor
+
