@@ -65,5 +65,6 @@
 - coordinates and associated features: N-dimensional extension of a sparse matrix -> sparse tensor
 - 有很多种存储形式：An investigation of sparse tensor formats for tensor libraries
 
-
+## RADAR vs LiDAR
+雷达 & 激光雷达
 
