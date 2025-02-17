@@ -14,8 +14,15 @@
 - 作用：描述物体表面外观如何随观察方向和光照方向的变化而变化。捕捉了表面在不同视角下的细微纹理和光照效果。
 - 与NeRF：NeRF 通过 MLP 学习一个连续的场景表示，也能够捕捉视角依赖的颜色变化。BTF是一种传统的方法，NeRF利用神经网络实现了类似功能紧凑的表示。
 
-## Range image vs singned distance image
-**Range image** 和 **signed distance image** 都是将空间中的距离信息以图像形式表示的方式，但它们有以下区别：
+## Bied Eye View (BEV)
+
+## Depth Image \ Range image \ singned distance image
+三者都是将空间中的距离信息以图像形式表示的方式，但它们有以下区别：
+
+- **Depth Image**
+  - 通常指每个像素表示从相机平面（光学中心）沿光轴（通常为z轴）的距离。
+  - 常见于RGB-D相机
+  - 受相机投影模型和视角的影响，准确度小于range image
 
 - **Range Image：**
   - **数据来源：** 通常由传感器（如 LiDAR）直接生成，每个像素记录传感器到物体表面的距离。
@@ -27,7 +34,7 @@
   - **距离符号：** 数值的符号通常用于指示位置关系——负值表示该点位于物体内部，正值表示在物体外部，这对于精细描述形状和边界非常有用。
   - **应用场景：** 常用于3D重建、形状优化、碰撞检测和形状表示等任务，因为其连续且有符号的特性可以提供丰富的几何信息。
 
-简单来说，**Range image** 主要关注从传感器视角直接测量的距离，而 **signed distance image** 则在此基础上增加了符号信息，用于更精确地描述空间中点与物体表面的关系。
+简单来说，**Depth Image**的距离是从相机光学中心沿视线方向测得， **Range image** 主要关注从传感器视角直接测量的距离，而 **signed distance image** 则在此基础上增加了符号信息，用于更精确地描述空间中点与物体表面的关系。
 
 ## 应用组件
 - Minkowski Engine. C. Choy, J. Gwak, and S. Savarese. 4d spatio-temporal convnets: Minkowski convolutional neural networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3075–3084, 2019.
