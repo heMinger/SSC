@@ -16,6 +16,12 @@
 
 ## Bied Eye View (BEV)
 
+## LiDAR (Range Image & Point Cloud)
+
+- LiDAR 是可以采集数据的一种传感器
+- Range Image可以有LiDAR采集到的数据直接构成
+- Range image经过投影计算可以得到Point Cloud, 二者是同一组传感器数据的不同表示形式，可以相互转换
+
 ## Depth Image \ Range image \ singned distance image
 三者都是将空间中的距离信息以图像形式表示的方式，但它们有以下区别：
 
