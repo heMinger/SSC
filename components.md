@@ -17,3 +17,8 @@
 ## Feature projection
 - However, MonoScene uses a dense 2D-to-3D feature projection, which may result in blurred 3D features. In contrast, VoxFormer [21] employs a different projection approach. (from 3D SSC and Occupancy Survey)
 - 
+
+## Dataset
+- RGB-D image
+- RGB-only
+- LiDAR
