@@ -7,6 +7,10 @@
 - dilated convolution
 - ASPP: Moreover, an ASPP [20] module in the final encoder layer extends the receptive field and preserves details, leading to an enhancement in SSC accuracy. (from survey)
 
+## 2D 信息如何用
+- 使用2 conv进行feature extration, Project to 3D
+- 2D & 3D feature fusion
+
 # CNNs 
 
 ## Minkowski CNNs
