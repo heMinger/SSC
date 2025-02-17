@@ -2,4 +2,5 @@
 learning process and important knowledge in SSC
 
 - reminder.md: 记录了我想到的可以改进的方向
-- Representation_Scene.md: 记录了3D场景表示的方法
+- Basis.md: 记录了一些基础知识，3D场景表示之类的。在论文中看到的不会的东西
+- summary/.. : 子文件中记录了论文笔记
