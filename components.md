@@ -43,3 +43,8 @@
 ## Contextual information
 - 感觉是更后面一点的方法了，（不，好像SSCNet就考虑了）
 - 感觉跟**prior knowlwdge**也有关系
+
+## feature aggression
+- Additionally, some research explores different methods for feature aggregation, such as orthogonal tri-perspective view aggregation [26], non-parametric interpolation for 3D feature aggregation without depth estimation [27], and a combination of forward and backward projection for 3D feature aggregation
+  - from 《3D SSC and Occupancy Survey》
+  
