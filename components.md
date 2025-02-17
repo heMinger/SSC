@@ -22,3 +22,7 @@
 - RGB-D image
 - RGB-only
 - LiDAR
+
+## ASPP
+
+## Generalized Sparse CNNs
