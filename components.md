@@ -14,15 +14,18 @@
 - Benjamin Graham. Spatially-sparse convolutional neural networks. arXiv preprint arXiv:1409.6070, 2014. 1, 3
 - Ben Graham. Sparse 3d convolutional neural networks. British Machine Vision Conference, 2015. 1, 2, 3, 8
 
+## Generalized Sparse CNNs
+
 ## Feature projection
 - However, MonoScene uses a dense 2D-to-3D feature projection, which may result in blurred 3D features. In contrast, VoxFormer [21] employs a different projection approach. (from 3D SSC and Occupancy Survey)
-- 
+- 2D-to-3D projection
 
 ## Dataset
 - RGB-D image
 - RGB-only
 - LiDAR
+- prior information
 
 ## ASPP
 
-## Generalized Sparse CNNs
+
