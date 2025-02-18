@@ -3,13 +3,18 @@
 - context aggreagation module(CAM): B. Wu, X. Zhou, S. Zhao, X. Yue, and K. Keutzer. Squeezesegv2: Improved model structure and unsupervised domain adaptation for road-object segmentation from a lidar point cloud. In 2019 International Conference on Robotics and Automation (ICRA), pages 4376–4382. IEEE, 2019.
 - **dilated convolution**: F. Yu and V. Koltun. Multi-scale context aggregation by dilated convolutions. In ICLR, 2016.
 
-## 感受野
-- dilated convolution
-- ASPP: Moreover, an ASPP [20] module in the final encoder layer extends the receptive field and preserves details, leading to an enhancement in SSC accuracy. (from survey)
+## cylindrical tri-perspective view
+- point cloud representation
+- Sicheng Zuo, Wenzhao Zheng, Yuanhui Huang, Jie Zhou, and Jiwen Lu. Pointocc: Cylindrical tri-perspective view for point-based 3d semantic occupancy prediction. arXiv preprint arXiv:2308.16896, 2023
+
 
 ## 2D 信息如何用
 - 使用2 conv进行feature extration, Project to 3D
 - 2D & 3D feature fusion
+
+## 感受野
+- dilated convolution
+- ASPP: Moreover, an ASPP [20] module in the final encoder layer extends the receptive field and preserves details, leading to an enhancement in SSC accuracy. (from survey)
 
 # CNNs 
 
