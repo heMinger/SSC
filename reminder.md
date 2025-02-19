@@ -4,3 +4,8 @@
 
 ## 组成
 - fusion model: 这是一个改进方向？
+
+## 2D inpainting & SSC
+1. 2D inpainting 既可以补全一部分区域，也可以根据mask删除一些object
+2. 二者都是一些补全工作，Image的补全&scene的补全。
+   - 为什么2D inpainting有那么多工作用diffusion Model 但SSC没怎么有？
