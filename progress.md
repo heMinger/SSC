@@ -115,5 +115,13 @@ $\color{red}{\text{看到这我终于知道需要看inpainting了}}$
 1. volume rendering techniques
 2. alpha compositing (blending)
 3. LLFF
+4. 2D & 3D inpainting
+- 2D inpainting: 进行补全
+- 3D inpainting: remove不想要的object(mask)
 
-NeRF-In: loss是哪两个的difference?
+### 3D GS
+*3D GS.pdf*
+1. rasterize: 3D 映射到2D的方法
+2. NeRF是volumetric representation, 跟meshes/point cloud什么区别？什么关系？
+3. 怎么根据一些指标（梯度等）发现有没有问题 & 如何解决问题？
+4. PDF的作用到底是什么？能反映什么问题？物理意义？
