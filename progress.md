@@ -1,5 +1,3 @@
-zotero上的笔记；goodnotes上的笔记；goodnotes上的问题汇总；已经总结出的问题汇总
-跑过的模型
 电脑上还有一个excel文件
 ## 综述
 1. seen:
@@ -112,7 +110,6 @@ $\color{red}{\text{看到这我终于知道需要看inpainting了}}$
 
 ### NeRF
 *NeRF.pdf*
-1. volume rendering techniques
 2. alpha compositing (blending)
 3. LLFF
 4. 2D & 3D inpainting
@@ -121,7 +118,48 @@ $\color{red}{\text{看到这我终于知道需要看inpainting了}}$
 
 ### 3D GS
 *3D GS.pdf*
-1. rasterize: 3D 映射到2D的方法
 2. NeRF是volumetric representation, 跟meshes/point cloud什么区别？什么关系？
 3. 怎么根据一些指标（梯度等）发现有没有问题 & 如何解决问题？
 4. PDF的作用到底是什么？能反映什么问题？物理意义？
+
+## 跑过的模型
+- DDPM
+- NeRF
+- SSCNet
+
+## 总结过的知识点
+
+1. 显示3D表示：voxel grid; point cloud; triangle mesh; 3D gaussian splatting;
+2. volume rendering technique
+3. BTF (Bidirectional Texture Function)
+4. LiDAR (Range Image & Point Cloud)
+5. Depth Image & Range Image & signed distance image
+6. IMU sensors
+7. SfM (Structure-from-Motion)
+8. MVS (Multi View Stereo)
+9. Rasterize
+10. anisotropic convariance
+11. SH, Spherical Harmonics (表示颜色)
+12. Camera Calibration: 确定相机(内外)参数
+- - - - - - - -
+
+### 应用的组件 or 网络架构 要考虑的一些问题等
+1. cylindrical tri-perspective view
+2. 2D 信息的利用
+- 2D conv进行feature extraction -> project to 3D
+- 2D & 3D feature fusion
+3. feature projection
+- 2D-to-3D projection
+- render应该也算是一种吧
+3. 感受野的大小
+4. contextual information
+5. prior knowledge
+4. Convolution
+- minkowski Conv
+- sparse CNNs
+- generalized sparse CNNs
+- dilated convolution
+- spatio-Temporal CNN
+- ASPP (atrous spatial pyramid pooling)
+5. fusion of 2D & 3D features
+6. feature aggression
