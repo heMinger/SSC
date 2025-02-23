@@ -34,6 +34,22 @@
    - SPH(流体模拟，直接在3D空间计算物理模拟)
    - FEM(有限元分析，用于3D结构分析)
   
+#### Voxel Grid & Point Cloud
+
+- **Voxel Grid**
+  - 将3D空间划分为**规则的立方体单元（体素）**
+  - 是规则的3D结构，大小固定
+  - 可以对Point Cloud等进行体素化生成。
+  - 可以高效地进行3D卷积操作
+ 
+- **Point Cloud**
+  - 一组在3D空间中的离散点，每个点通常具有(x,y,z)坐标，并可能带有额外的信息，如反射强度等。
+  - 通常由3D传感器(LiDAR、深度相机)生成
+  - 稀疏，没有固定的拓扑结构；分布不规则
+  - 难以直接处理
+
+ Voxel Grid是为了方便数据处理，由点云等数据voxelization而来
+  
 
 ## 3D representation
 - Genova, K., Cole, F., Sud, A., Sarna, A., Funkhouser, T.: **Local deep implicit functions** for 3d shape. In: CVPR (2020)
@@ -79,21 +95,7 @@
 
 简单来说，**Depth Image**的距离是从相机光学中心沿视线方向测得， **Range image** 主要关注从传感器视角直接测量的距离，而 **signed distance image** 则在此基础上增加了符号信息，用于更精确地描述空间中点与物体表面的关系。
 
-## Voxel Grid & Point Cloud
 
-- **Voxel Grid**
-  - 将3D空间划分为**规则的立方体单元（体素）**
-  - 是规则的3D结构，大小固定
-  - 可以对Point Cloud等进行体素化生成。
-  - 可以高效地进行3D卷积操作
- 
-- **Point Cloud**
-  - 一组在3D空间中的离散点，每个点通常具有(x,y,z)坐标，并可能带有额外的信息，如反射强度等。
-  - 通常由3D传感器(LiDAR、深度相机)生成
-  - 稀疏，没有固定的拓扑结构；分布不规则
-  - 难以直接处理
-
- Voxel Grid是为了方便数据处理，由点云等数据voxelization而来
 
 ## Sparse Tensor
 
