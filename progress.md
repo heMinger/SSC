@@ -80,9 +80,11 @@ $\color{red}{\text{看到这我终于知道需要看inpainting了}}$
 - S3CNet: A Sparse Semantic Scene Completion Network for LiDAR Point Clouds (2020)
 - 4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks (2019)
 2. todo
+  
 [这里剩一堆呢](https://oceanechy.github.io/2023/10/29/ssc/)
 
 3. notes
+
 - SSCNet
 - LMSCNet
 - 4D Spatio-Temporal ConvNet.pdf
@@ -116,10 +118,11 @@ $\color{red}{\text{看到这我终于知道需要看inpainting了}}$
 - 3D inpainting: remove不想要的object(mask)
 
 ### 3D GS
+
 *3D GS.pdf*
-2. NeRF是volumetric representation, 跟meshes/point cloud什么区别？什么关系？
-3. 怎么根据一些指标（梯度等）发现有没有问题 & 如何解决问题？
-4. PDF的作用到底是什么？能反映什么问题？物理意义？
+1. NeRF是volumetric representation, 跟meshes/point cloud什么区别？什么关系？
+2. 怎么根据一些指标（梯度等）发现有没有问题 & 如何解决问题？
+3. PDF的作用到底是什么？能反映什么问题？物理意义？
 
 ## 跑过的模型
 - DDPM
