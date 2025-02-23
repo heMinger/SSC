@@ -1,4 +1,3 @@
-电脑上还有一个excel文件
 ## 综述
 1. seen:
 - 3D Semantic Scene Completion: A Survey （2022）
