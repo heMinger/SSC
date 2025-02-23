@@ -1,3 +1,40 @@
+## 显示3D表示
+1. Voxel grid
+   - 规则立方体网格，每个体素存储颜色/语义/占据状态
+   - 优点：直接存储，利于物理模拟，体积渲染
+   - 缺点：
+     - 需要大量的存储空间，分辨率受限
+     - 计算复杂
+3. point cloud
+   - 稀疏点集合，每个点包含位置(x,y,z)以及颜色、法向量等信息
+   - 优点：
+     - 高效：存储密集信息不收网格拓扑限制
+     - 适合扫描/重建真实世界场景(如LiDAR)
+    - 缺点：
+      - 没有拓扑结构，无法直接渲染（点云渲染方法）
+      - 点直接缺少连接，不适合物理模拟
+5. triangle mesh
+   - 用顶点、边和面构建3D物体的表面
+   - 优点
+     - 高效存储，相比Voxel grid和point cloud更节省空间
+   - 缺点
+     - 仅表示表面，不适用于内部结构
+     - 需要额外的拓扑信息（连接关系复杂）
+7. 3D gaussian splatting
+   - 高斯球表示3D场景（点云的每个点是一个高斯分布）
+   - 优点
+     - 比普通点云更光滑，可以直接渲染
+     - 比网格更自由，没有拓扑限制
+   - 缺点
+     - 仍需要渲染过程，不能直接在3D引擎中使用
+    
+8. 可以直接3D计算方法
+   - Marching Cubes(3D voxel -> 3D grid)
+   - Possion Surface Reconstructure(从点云恢复光滑表面)
+   - SPH(流体模拟，直接在3D空间计算物理模拟)
+   - FEM(有限元分析，用于3D结构分析)
+  
+
 ## 3D representation
 - Genova, K., Cole, F., Sud, A., Sarna, A., Funkhouser, T.: **Local deep implicit functions** for 3d shape. In: CVPR (2020)
 - Mescheder, L., Oechsle, M., Niemeyer, M., Nowozin, S., Geiger, A.: Occupancy networks: Learning 3D reconstruction in function space. In: CVPR (2019)
