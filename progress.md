@@ -105,3 +105,15 @@ $\color{red}{\text{看到这我终于知道需要看inpainting了}}$
 1. SSC 适合indoor static scene? 还适合自动驾驶汽车的场景吗？
 2. multimodal 是什么？怎么才算？
 
+*S3CNet*
+1. Bird-Eye View: BEV
+2. Minkowski Engine
+3. generalized convolution: 可以任意尺度？ -> 利于多尺度融合？ 多维空间
+
+### NeRF
+*NeRF.pdf*
+1. volume rendering techniques
+2. alpha compositing (blending)
+3. LLFF
+
+NeRF-In: loss是哪两个的difference?
