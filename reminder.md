@@ -12,3 +12,8 @@
 3. SSC 可不可以是以下两个工作的结合？
    - multi-view inpainting
    - multi-view consistent
+
+## 效率问题
+1. 对3D scene中free space的表示 important
+2. dense 之后就 sparse
+3. sparse之后就加一些之前没用过的信息
