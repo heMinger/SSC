@@ -57,11 +57,6 @@
 - Jiang, C., Sud, A., Makadia, A., Huang, J., Nießner, M., Funkhouser, T.: **Local implicit grid representations** for 3d scenes. In: CVPR (2020)
 - Park, J.J., Florence, P., Straub, J., Newcombe, R., Lovegrove, S.: DeepSDF: Learning continuous signed distance functions for shape representation. In: CVPR (2019)
 
-## volume rendering technique:
-- 体积渲染技术
-- 作用：从3D体积数据生成2D图像
-- 核心思想：沿摄像机出发的光线对场景中的体积进行采样，将每个采样点处的颜色和密度信息按照一定的光学模型（如吸收、发射和散射）进行积分累加，最终计算出射线对应的像素颜色。
-
 ## BTF: Bidirectional Texture Function
 - 双向纹理函数
 - 作用：描述物体表面外观如何随观察方向和光照方向的变化而变化。捕捉了表面在不同视角下的细微纹理和光照效果。
@@ -128,6 +123,11 @@
   - 通常有虚拟相机在场景中采集图像，现实中相机只能捕捉2D画面，想让3D场景可视化，必须把它转换成2D试图模拟相机的成像过程。
 3. 训练和评估方便
   - 监督信号通常是2D信号，最终结果转换成2D易于与ground truth进行对比
+
+### volume rendering technique:
+- 体积渲染技术
+- 作用：从3D体积数据生成2D图像
+- 核心思想：沿摄像机出发的光线对场景中的体积进行采样，将每个采样点处的颜色和密度信息按照一定的光学模型（如吸收、发射和散射）进行积分累加，最终计算出射线对应的像素颜色。
 
 ## Structure-from-Motion (SfM)
 - 通过分析多张2D图像中的特征点匹配，恢复相机位姿和3D场景结构的技术
