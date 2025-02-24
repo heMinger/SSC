@@ -27,6 +27,9 @@
 - Benjamin Graham. Spatially-sparse convolutional neural networks. arXiv preprint arXiv:1409.6070, 2014. 1, 3
 - Ben Graham. Sparse 3d convolutional neural networks. British Machine Vision Conference, 2015. 1, 2, 3, 8
 
+## AIC (Anisotropic Convolution)
+- 可以使计算高效（幕布）
+
 ## Generalized Sparse CNNs
 ## dilated convolution
 
