@@ -54,6 +54,7 @@
 ## ASPP(atrous spatial pyramid pooling pooling)
 
 ## Fusion of 2D and 3D Features
+- 1*1 Conv 可以进行跨通道信息融合
 
 ## Different Scene
 - Although RGB-D cameras can provide depth geometric information, they are not suitable for outdoor scenes.
