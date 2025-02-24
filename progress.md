@@ -163,5 +163,6 @@ $\color{red}{\text{看到这我终于知道需要看inpainting了}}$
 - dilated convolution
 - spatio-Temporal CNN
 - ASPP (atrous spatial pyramid pooling)
+- AIC (Anisotropic Convolution)
 5. fusion of 2D & 3D features
 6. feature aggression
