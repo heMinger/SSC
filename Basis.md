@@ -195,3 +195,22 @@
 - 在3D GS 中
   - SfM/MVS 输出的相机参数用于初始化渲染时的投影矩阵
   - 可微分渲染依赖准确的相机参数以计算梯度
+
+## ViT (Vision Transformer)
+- 将图像切分为块（patches），通过多头注意力建模块间关系。
+- 改进版：Swin Transformer引入窗口多头注意力，降低计算复杂度，更适合密集预测任务（如SSC）。
+
+## Multi-Head Attention
+- 单头注意力： 只能捕捉单一模式的依赖关系
+- 优势：
+   - 多视角建模
+   - 并行计算：多头之间同时计算
+   - robust：避免模型对单一注意力机制的过拟合
+- 与SSC的关联
+  - SSC需要理解全局contextual informations
+    - 部分头专注于全局上下文：识别物体的大致位置
+    - 部分捕捉局部细节：提升segmentation等的精度
+  - SSC需要同时理解不同尺度的物体
+  - Masked Attention for Occlusion Handling
+    - SSC痛点：遮挡导致物体部分不可见
+    - **解决方案：设计掩码多头注意力，抑制被遮挡区域的特征响应，增强可见区域的权重**
