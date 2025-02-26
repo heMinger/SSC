@@ -17,6 +17,7 @@
 1. 对3D scene中free space的表示 important
 2. dense 之后就 sparse
 3. sparse之后就加一些之前没用过的信息
+4. hierarchical
 
 ## Inpaint 和 SSC的区别是什么呢？
 1. based on my knowledges
