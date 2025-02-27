@@ -62,7 +62,10 @@
 - 作用：描述物体表面外观如何随观察方向和光照方向的变化而变化。捕捉了表面在不同视角下的细微纹理和光照效果。
 - 与NeRF：NeRF 通过 MLP 学习一个连续的场景表示，也能够捕捉视角依赖的颜色变化。BTF是一种传统的方法，NeRF利用神经网络实现了类似功能紧凑的表示。
 
-## Bied Eye View (BEV)
+## Bird Eye View (BEV)
+1. a perspective: looking down from the sky onto the scene
+2. This perspective is often achieved using techniques such as camera calibration, geometric transformations, and image processing.
+3. 感觉经常利用point cloud，或者使用point cloud数据得到BEV images
 
 ## LiDAR (Range Image & Point Cloud)
 
