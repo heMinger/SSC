@@ -18,6 +18,10 @@
 2. dense 之后就 sparse
 3. sparse之后就加一些之前没用过的信息
 4. hierarchical
+5. variation of CNNs
+- dimensional decomposition residual network: Rgbd based dimensional decomposition residual network for 3d semantic scene completion.(2019)
+- spatial group conv: Efficient semantic scene completion network with spatial group convolution. (2018)
+6. 
 
 ## Inpaint 和 SSC的区别是什么呢？
 1. based on my knowledges
