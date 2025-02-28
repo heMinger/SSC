@@ -21,7 +21,8 @@
 5. variation of CNNs
 - dimensional decomposition residual network: Rgbd based dimensional decomposition residual network for 3d semantic scene completion.(2019)
 - spatial group conv: Efficient semantic scene completion network with spatial group convolution. (2018)
-6. 
+6. 跟使用的数据也有关系
+- 比如，在DDR中，说SSCNet和TS3D使用的TSDF计算密集
 
 ## Inpaint 和 SSC的区别是什么呢？
 1. based on my knowledges
