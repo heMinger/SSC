@@ -7,6 +7,12 @@
 - point cloud representation
 - Sicheng Zuo, Wenzhao Zheng, Yuanhui Huang, Jie Zhou, and Jiwen Lu. Pointocc: Cylindrical tri-perspective view for point-based 3d semantic occupancy prediction. arXiv preprint arXiv:2308.16896, 2023
 
+## contextual information
+1. skip connection
+2. dilated information
+3. ASPP
+4. self-attention
+5. global pooling
 
 ## 2D 信息如何用
 - 使用2 conv进行feature extration, Project to 3D
