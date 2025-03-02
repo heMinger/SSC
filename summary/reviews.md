@@ -29,3 +29,19 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 
 ## StereoScene 2024
 *employ 3D geometric signals, in the form of occupancy grids, point clouds, or distance fields, as their model inputs. Although they provide insightful geometric cues, it requires costly sensors (e.g. LiDAR) alongside considerable manual labor entailed in their deployment.*
+
+# MonoScene 2022
+
+## StereoScene 2024
+*the absence of explicit 3D geometric information and incomplete observation pose large challenges to accurate geometry acquisition and reasonable hallucination in invisible regions*
+
+# Tri-perspective view for vision-based 3d semantic occupancy prediction 2023
+
+## StereoScene 2024
+*the absence of explicit 3D geometric information and incomplete observation pose large challenges to accurate geometry acquisition and reasonable hallucination in invisible regions*
+
+# Voxformer: Sparse voxel transformer for camera-based 3d semantic scene completion 2023
+
+## StereoScene 2024
+*the absence of explicit 3D geometric information and incomplete observation pose large challenges to accurate geometry acquisition and reasonable hallucination in invisible regions*
+
