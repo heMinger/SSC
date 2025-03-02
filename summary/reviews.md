@@ -16,3 +16,16 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 
 ## See and Think: Disentangling Semantic Scene Completion
 Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in the aspect of task solving, these networks introduce a tight coupling between RGB and depth so that their extensibility and evolvability are constrained.
+
+## StereoScene 2024
+*employ 3D geometric signals, in the form of occupancy grids, point clouds, or distance fields, as their model inputs. Although they provide insightful geometric cues, it requires costly sensors (e.g. LiDAR) alongside considerable manual labor entailed in their deployment.*
+
+# LMSCNet 2020
+
+## StereoScene 2024
+*employ 3D geometric signals, in the form of occupancy grids, point clouds, or distance fields, as their model inputs. Although they provide insightful geometric cues, it requires costly sensors (e.g. LiDAR) alongside considerable manual labor entailed in their deployment.*
+
+# Scfusion: Real-time incremental scene reconstruction with semantic completion. 2020
+
+## StereoScene 2024
+*employ 3D geometric signals, in the form of occupancy grids, point clouds, or distance fields, as their model inputs. Although they provide insightful geometric cues, it requires costly sensors (e.g. LiDAR) alongside considerable manual labor entailed in their deployment.*
