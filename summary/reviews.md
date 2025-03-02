@@ -53,3 +53,8 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 *the absence of explicit 3D geometric information and incomplete observation pose large challenges to accurate geometry acquisition and reasonable hallucination in invisible regions*
 *Later studies [Li et al., 2023a] attempt to introduce depth information to augment query for reliable geometry prediction.*
 *But their results still struggle to hallucinate reasonable invisible regions without ensembling global semantic context*
+
+# NeRF
+
+## TPVFormer
+*They learn a continuous function that takes as input the 3D coordinate of a point and outputs the representation of this point [34, 35, 37]. Compared with explicit representations like voxel and BEV, implicit representations usually share the advantage of arbitrary-resolution modeling and computation-efficient architectures. These advantages enable them to scale to larger and more complex scenes with more fine-grained descriptions*
