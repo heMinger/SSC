@@ -5,6 +5,7 @@
 
 *However, they not only exploit few semantic features, but are highly customized for a specific sensor.*
 *However, it takes a single depth image as input and does not take advantage of rich features of RGB.*
+*In SSCNet [1], the scene surface without semantic information is encoded into a volume for completion and all the convolutions have fixed receptive fields*
 
 # Semantic Scene Completion Combining Colour and Depth: Preliminary Experiments
 
