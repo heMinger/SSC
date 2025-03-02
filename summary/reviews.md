@@ -34,14 +34,19 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 
 ## StereoScene 2024
 *the absence of explicit 3D geometric information and incomplete observation pose large challenges to accurate geometry acquisition and reasonable hallucination in invisible regions*
+*Thus, previous camera-based SSC solutions [Cao and de Charette, 2022; Huang et al., 2023] tend to utilize learning-based projection techniques to convert 2D image features into a 3D dense space, but their predictions inevitably fall short of capturing accurate geometry without explicit constraints.*
+*But their results still struggle to hallucinate reasonable invisible regions without ensembling global semantic context*
 
 # Tri-perspective view for vision-based 3d semantic occupancy prediction 2023
 
 ## StereoScene 2024
 *the absence of explicit 3D geometric information and incomplete observation pose large challenges to accurate geometry acquisition and reasonable hallucination in invisible regions*
+*Thus, previous camera-based SSC solutions [Cao and de Charette, 2022; Huang et al., 2023] tend to utilize learning-based projection techniques to convert 2D image features into a 3D dense space, but their predictions inevitably fall short of capturing accurate geometry without explicit constraints.*
+*But their results still struggle to hallucinate reasonable invisible regions without ensembling global semantic context*
 
 # Voxformer: Sparse voxel transformer for camera-based 3d semantic scene completion 2023
 
 ## StereoScene 2024
 *the absence of explicit 3D geometric information and incomplete observation pose large challenges to accurate geometry acquisition and reasonable hallucination in invisible regions*
-
+*Later studies [Li et al., 2023a] attempt to introduce depth information to augment query for reliable geometry prediction.*
+*But their results still struggle to hallucinate reasonable invisible regions without ensembling global semantic context*
