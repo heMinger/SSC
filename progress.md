@@ -11,8 +11,6 @@
 1. seen
 - High-Resolution Image Synthesis with Latent Diffusion Models (2022)
 - RePaint: Inpainting using Denoising Diffusion Probabilistic Models (2022)
-
-2. todo
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation (2023)
 - Adding Conditional Control to Text-to-Image Diffusion Models (2023)
 - LeftRefill: Filling Right Canvas based on Left Reference through Generalized Text-to-Image Diffusion Model (2024)
@@ -79,8 +77,21 @@ $\color{red}{\text{看到这我终于知道需要看inpainting了}}$
 - LMSCNet: Lightweight Multiscale 3D Semantic Completion (2020)
 - S3CNet: A Sparse Semantic Scene Completion Network for LiDAR Point Clouds (2020)
 - 4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks (2019)
-2. todo
-  
+
+- - - - - - - - - - - 
+*update 3/2/2025*
+1. RGB-D seen
+- seen: SSCNet; SATNet; DDR; AICNet;
+- unseen: ESSCNet; TS3D; 3D Sketch
+2. RGB-only
+- seen: MonoScene
+- unseen: VoxFormer; OccupancyM3D; Symphobies
+3. others
+- Two Strean SSC
+- TPVFormer
+
+4. plans
+- VoxFormer; ESSCNet; TS3D; 3D Sketch; OccupancyM3D; Symphobies
 [这里剩一堆呢](https://oceanechy.github.io/2023/10/29/ssc/)
 
 3. notes
