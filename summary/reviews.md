@@ -7,6 +7,13 @@
 *However, it takes a single depth image as input and does not take advantage of rich features of RGB.*
 *In SSCNet [1], the scene surface without semantic information is encoded into a volume for completion and all the convolutions have fixed receptive fields*
 
+## LMSCNet
+
+*It is thus common to encode the latter as voxel grids processed by 3D Convolutional Neural Networks (CNNs) [11, 36, 12, 26]. *
+*This shows good results but also requires heavy computation, as the memory requirement grows cubically with the input voxel resolution [28].*
+*Consequently, most of the literature limits the predicted resolution and network depth, being incapable to perform the task at the same spatial resolution as the input [36, 15, 41].*
+*This drawback has limited the deployment of such methods for real time applications i.e. augmented and virtual reality [38], robotics perception and navigation [23], scene understanding*
+
 # Semantic Scene Completion Combining Colour and Depth: Preliminary Experiments
 
 ## See and Think: Disentangling Semantic Scene Completion
