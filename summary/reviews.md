@@ -14,6 +14,15 @@
 *Consequently, most of the literature limits the predicted resolution and network depth, being incapable to perform the task at the same spatial resolution as the input [36, 15, 41].*
 *This drawback has limited the deployment of such methods for real time applications i.e. augmented and virtual reality [38], robotics perception and navigation [23], scene understanding*
 
+# ESSCNet
+
+## LMSCNet
+
+*It is thus common to encode the latter as voxel grids processed by 3D Convolutional Neural Networks (CNNs) [11, 36, 12, 26]. *
+*This shows good results but also requires heavy computation, as the memory requirement grows cubically with the input voxel resolution [28].*
+*Consequently, most of the literature limits the predicted resolution and network depth, being incapable to perform the task at the same spatial resolution as the input [36, 15, 41].*
+*This drawback has limited the deployment of such methods for real time applications i.e. augmented and virtual reality [38], robotics perception and navigation [23], scene understanding*
+
 # Semantic Scene Completion Combining Colour and Depth: Preliminary Experiments
 
 ## See and Think: Disentangling Semantic Scene Completion
@@ -26,6 +35,11 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 
 ## StereoScene 2024
 *employ 3D geometric signals, in the form of occupancy grids, point clouds, or distance fields, as their model inputs. Although they provide insightful geometric cues, it requires costly sensors (e.g. LiDAR) alongside considerable manual labor entailed in their deployment.*
+
+## LMSCNet
+*This shows good results but also requires heavy computation, as the memory requirement grows cubically with the input voxel resolution [28].*
+*Consequently, most of the literature limits the predicted resolution and network depth, being incapable to perform the task at the same spatial resolution as the input [36, 15, 41].*
+*This drawback has limited the deployment of such methods for real time applications i.e. augmented and virtual reality [38], robotics perception and navigation [23], scene understanding*
 
 # LMSCNet 2020
 
