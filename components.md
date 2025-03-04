@@ -13,6 +13,7 @@
 3. ASPP
 4. self-attention
 5. global pooling
+6. 3D CRP(Context Relation Prior) - MonoScene
 
 ## 2D 信息如何用
 - 使用2 conv进行feature extration, Project to 3D
