@@ -64,6 +64,10 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 ## TPVFormer 2023
 *MonoScene [5] first backprojects image features to all possible positions in the 3D space along the optical ray to obtain the initial voxel representation and further processes it using a 3D UNet. However, it is still challenging to generalize it to 3D perception with multi-view images due to the inefficiency of voxel representations*
 
+## OccDepth
+
+*MonoScene [Cao and de Charette, 2022a] infers dense 3D voxelized semantic indoor and outdoor scenes from a single RGB image.*
+
 # Tri-perspective view for vision-based 3d semantic occupancy prediction 2023
 
 ## StereoScene 2024
