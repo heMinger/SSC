@@ -67,6 +67,7 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 ## OccDepth
 
 *MonoScene [Cao and de Charette, 2022a] infers dense 3D voxelized semantic indoor and outdoor scenes from a single RGB image.*
+*we choose to project each voxel to the corresponding image pixel as done in MonoScene [Cao and de Charette, 2022a], which establishes a full feature mapping for all voxels*
 
 # Tri-perspective view for vision-based 3d semantic occupancy prediction 2023
 
