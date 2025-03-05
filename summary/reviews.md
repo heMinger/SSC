@@ -64,10 +64,14 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 ## TPVFormer 2023
 *MonoScene [5] first backprojects image features to all possible positions in the 3D space along the optical ray to obtain the initial voxel representation and further processes it using a 3D UNet. However, it is still challenging to generalize it to 3D perception with multi-view images due to the inefficiency of voxel representations*
 
-## OccDepth
+## OccDepth 2023
 
 *MonoScene [Cao and de Charette, 2022a] infers dense 3D voxelized semantic indoor and outdoor scenes from a single RGB image.*
 *we choose to project each voxel to the corresponding image pixel as done in MonoScene [Cao and de Charette, 2022a], which establishes a full feature mapping for all voxels*
+
+## OccFormer 2023
+
+*The seminar work MonoScene [4] proposed the first monocular framework for 3D semantic occupancy prediction. It first constructs the 3D feature with sight projection and then processes it with a classical 3D UNet. However, the 3D convolution suffers from several limitations. First, it reasons the semantics within a relatively fixed receptive field, while different semantic classes may distribute following various patterns. Also, its spatial invariance cannot well process the sparse and discontinuous 3D features, generated from the state-of-the-art practices for image-to-3D transformation*
 
 # Tri-perspective view for vision-based 3d semantic occupancy prediction 2023
 
