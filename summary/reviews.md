@@ -71,7 +71,11 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 
 ## OccFormer 2023
 
-*The seminar work MonoScene [4] proposed the first monocular framework for 3D semantic occupancy prediction. It first constructs the 3D feature with sight projection and then processes it with a classical 3D UNet. However, the 3D convolution suffers from several limitations. First, it reasons the semantics within a relatively fixed receptive field, while different semantic classes may distribute following various patterns. Also, its spatial invariance cannot well process the sparse and discontinuous 3D features, generated from the state-of-the-art practices for image-to-3D transformation*
+*The seminar work MonoScene [4] proposed the first monocular framework for 3D semantic occupancy prediction. It first constructs the 3D feature with sight projection and then processes it with a classical 3D UNet.*
+*However, the 3D convolution suffers from several limitations.*
+*First, it reasons the semantics within a relatively fixed receptive field, while different semantic classes may distribute following various patterns.*
+*Also, its spatial invariance cannot well process the sparse and discontinuous 3D features, generated from the state-of-the-art practices for image-to-3D transformation.*
+*Finally, the 3D convolution filters can consume massive parameters.*
 
 # Tri-perspective view for vision-based 3d semantic occupancy prediction 2023
 
