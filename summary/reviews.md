@@ -96,6 +96,9 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 
 *MonoScene [8] is the first work to reconstruct outdoor scenes using only RGB inputs. TPVFormer [22] further generalizes it to multi-camera 3D semantic occupancy prediction. However, its lack of dense supervision results in sparse occupancy prediction. *
 
+- 2D-3D lift:
+*Many 3D scene reconstruction methods [8, 37] integrate multi-view 2D features into 3D space by reprojecting 2D features back to the 3D volumes with known poses. The grid feature is calculated by simply averaging all 2D features in this grid. However, this kind of method assumes that different views contribute equally to the 3D volumes,*
+
 # Tri-perspective view for vision-based 3d semantic occupancy prediction 2023
 
 ## OccFormer
