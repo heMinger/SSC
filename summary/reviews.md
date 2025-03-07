@@ -94,6 +94,8 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 
 *[8] infers the dense 3D voxelized semantic scene with monocular images. However, simply fusing multi-camera results with cross-camera post-processing will lead to low performance [29](BEVFormer).*
 
+*MonoScene [8] is the first work to reconstruct outdoor scenes using only RGB inputs. TPVFormer [22] further generalizes it to multi-camera 3D semantic occupancy prediction. However, its lack of dense supervision results in sparse occupancy prediction. *
+
 # Tri-perspective view for vision-based 3d semantic occupancy prediction 2023
 
 ## OccFormer
@@ -114,6 +116,8 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 *directly predict the 3D occupancy of the scene. It describes a 3D scene by assigning an occupied probability to each voxel in the 3D space. We advocate 3D occupancy to be a good 3D representation for multi-camera scene reconstruction, which naturally guarantees the multi-camera geometry consistency and is able to recover occluded parts. *
 
 *TPVFormer [22] uses sparse LiDAR points as supervision, which results in sparse occupancy prediction.*
+
+*MonoScene [8] is the first work to reconstruct outdoor scenes using only RGB inputs. TPVFormer [22] further generalizes it to multi-camera 3D semantic occupancy prediction. However, its lack of dense supervision results in sparse occupancy prediction. *
 
 # Voxformer: Sparse voxel transformer for camera-based 3d semantic scene completion 2023
 
