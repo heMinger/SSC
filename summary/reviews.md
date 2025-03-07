@@ -99,6 +99,10 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 - 2D-3D lift:
 *Many 3D scene reconstruction methods [8, 37] integrate multi-view 2D features into 3D space by reprojecting 2D features back to the 3D volumes with known poses. The grid feature is calculated by simply averaging all 2D features in this grid. However, this kind of method assumes that different views contribute equally to the 3D volumes,*
 
+## PanoOcc 2023
+
+*Therefore, a burst of recent methods [4, 19, 37, 4, 56, 25] have focused on dense semantic occupancy prediction. However, simply lifting 2D to 3D occupancy representation has been considered inefficient in terms of memory cost. Although these methods attempt to mitigate the memory issue, they still struggle to capture the complete 3D information and may experience reduced performance. Moreover, these existing works primarily focus on the semantic understanding of the scene and do not address instance-level discrimination.*
+
 # Tri-perspective view for vision-based 3d semantic occupancy prediction 2023
 
 ## OccFormer
@@ -122,6 +126,10 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 
 *MonoScene [8] is the first work to reconstruct outdoor scenes using only RGB inputs. TPVFormer [22] further generalizes it to multi-camera 3D semantic occupancy prediction. However, its lack of dense supervision results in sparse occupancy prediction. *
 
+## PanoOcc 2023
+
+*Therefore, a burst of recent methods [4, 19, 37, 4, 56, 25] have focused on dense semantic occupancy prediction. However, simply lifting 2D to 3D occupancy representation has been considered inefficient in terms of memory cost. This limitation has driven methods like TPVFormer [19] to split the 3D representation into three 2D planes. Although these methods attempt to mitigate the memory issue, they still struggle to capture the complete 3D information and may experience reduced performance. Moreover, these existing works primarily focus on the semantic understanding of the scene and do not address instance-level discrimination.*
+
 # Voxformer: Sparse voxel transformer for camera-based 3d semantic scene completion 2023
 
 ## StereoScene 2024
@@ -134,6 +142,10 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 
 *A coarse-to-fine approach is also favorable in improving 3D geometric representation at affordable cost, while it is ignored by one-stage methods [17, 27, 5].*
 
+## PanoOcc 2023
+
+*Therefore, a burst of recent methods [4, 19, 37, 4, 56, 25] have focused on dense semantic occupancy prediction. However, simply lifting 2D to 3D occupancy representation has been considered inefficient in terms of memory cost. This limitation has driven methods like TPVFormer [19] to split the 3D representation into three 2D planes. Although these methods attempt to mitigate the memory issue, they still struggle to capture the complete 3D information and may experience reduced performance. Moreover, these existing works primarily focus on the semantic understanding of the scene and do not address instance-level discrimination.*
+
 # OccDepth 2023
 
 ## OccNet 2023
@@ -141,6 +153,9 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 
 *A coarse-to-fine approach is also favorable in improving 3D geometric representation at affordable cost, while it is ignored by one-stage methods [17, 27, 5].*
 
+## PanoOcc 2023
+
+*Therefore, a burst of recent methods [4, 19, 37, 4, 56, 25] have focused on dense semantic occupancy prediction. However, simply lifting 2D to 3D occupancy representation has been considered inefficient in terms of memory cost. This limitation has driven methods like TPVFormer [19] to split the 3D representation into three 2D planes. Although these methods attempt to mitigate the memory issue, they still struggle to capture the complete 3D information and may experience reduced performance. Moreover, these existing works primarily focus on the semantic understanding of the scene and do not address instance-level discrimination.*
 
 # NeRF
 
