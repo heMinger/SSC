@@ -212,6 +212,9 @@ HHA通过将深度图转换为包含水平视差、地面高度和表面角度�
    - **深度图融合**：将多视角深度图融合为一致的点云or网格
 - 3D GS中，作为SfM的补充，若SfM的稀疏点云不足，提供更密集的点云作为输入
 
+## Multi-camera
+1. surround images -> multi-camera consistency
+
 ## Rasterize
 - 将3D几何（如三角形网格、点云、高斯椭球）转换为2D像素的过程
 - 作用：
