@@ -103,7 +103,7 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 
 *Therefore, a burst of recent methods [4, 19, 37, 4, 56, 25] have focused on dense semantic occupancy prediction. However, simply lifting 2D to 3D occupancy representation has been considered inefficient in terms of memory cost. Although these methods attempt to mitigate the memory issue, they still struggle to capture the complete 3D information and may experience reduced performance. Moreover, these existing works primarily focus on the semantic understanding of the scene and do not address instance-level discrimination.*
 
-# Tri-perspective view for vision-based 3d semantic occupancy prediction 2023
+# TPVFOrmer: Tri-perspective view for vision-based 3d semantic occupancy prediction 2023
 
 ## OccFormer
 *TPVFormer [21] proposes the tri-perspective view representation to describe the 3D scene for semantic occupancy prediction. Despite its simplicity, the tri-plane format is susceptible to the deficiency of fine-grained semantic information, leading to inferior performance.*
@@ -129,6 +129,10 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 ## PanoOcc 2023
 
 *Therefore, a burst of recent methods [4, 19, 37, 4, 56, 25] have focused on dense semantic occupancy prediction. However, simply lifting 2D to 3D occupancy representation has been considered inefficient in terms of memory cost. This limitation has driven methods like TPVFormer [19] to split the 3D representation into three 2D planes. Although these methods attempt to mitigate the memory issue, they still struggle to capture the complete 3D information and may experience reduced performance. Moreover, these existing works primarily focus on the semantic understanding of the scene and do not address instance-level discrimination.*
+
+## PointOcc 2023
+
+*While TPVFormer employs three perpendicular planes in the Cartesian coordinate system, we empirically find that they cannot well describe the LiDAR point clouds due to the non-uniform distribution of point clouds (i.e., the sparsity of the points depends on their distances to the ego car).*
 
 # Voxformer: Sparse voxel transformer for camera-based 3d semantic scene completion 2023
 
