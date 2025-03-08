@@ -21,6 +21,12 @@
 *Consequently, most of the literature limits the predicted resolution and network depth, being incapable to perform the task at the same spatial resolution as the input [36, 15, 41].*
 *This drawback has limited the deployment of such methods for real time applications i.e. augmented and virtual reality [38], robotics perception and navigation [23], scene understanding*
 
+# S3CNet
+
+## PointOcc 2023
+
+*The LiDAR segmentation task predicts labels only for the sparse lidar points, and thus cannot provide a comprehensive and fine-grained description of the 3D scene, which is essential for autonomous driving systems. To address this, recent methods [5, 9, 39] started exploring dense semantic predictions for all the voxels in the surrounding space.*
+
 # Semantic Scene Completion Combining Colour and Depth: Preliminary Experiments
 
 ## See and Think: Disentangling Semantic Scene Completion
@@ -102,6 +108,10 @@ Afterwards, [6, 24] attempt to add RGB features into the network. Overall, in th
 ## PanoOcc 2023
 
 *Therefore, a burst of recent methods [4, 19, 37, 4, 56, 25] have focused on dense semantic occupancy prediction. However, simply lifting 2D to 3D occupancy representation has been considered inefficient in terms of memory cost. Although these methods attempt to mitigate the memory issue, they still struggle to capture the complete 3D information and may experience reduced performance. Moreover, these existing works primarily focus on the semantic understanding of the scene and do not address instance-level discrimination.*
+
+## PointOcc 2023
+
+*The LiDAR segmentation task predicts labels only for the sparse lidar points, and thus cannot provide a comprehensive and fine-grained description of the 3D scene, which is essential for autonomous driving systems. To address this, recent methods [5, 9, 39] started exploring dense semantic predictions for all the voxels in the surrounding space.*
 
 # TPVFOrmer: Tri-perspective view for vision-based 3d semantic occupancy prediction 2023
 
