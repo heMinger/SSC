@@ -21,7 +21,7 @@
 *Consequently, most of the literature limits the predicted resolution and network depth, being incapable to perform the task at the same spatial resolution as the input [36, 15, 41].*
 *This drawback has limited the deployment of such methods for real time applications i.e. augmented and virtual reality [38], robotics perception and navigation [23], scene understanding*
 
-# S3CNet
+# S3CNet 2020
 
 ## PointOcc 2023
 
