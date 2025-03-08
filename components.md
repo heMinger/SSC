@@ -15,6 +15,10 @@
 5. global pooling
 6. 3D CRP(Context Relation Prior) - MonoScene
 
+## Loss
+1. focal loss
+2. Lovasz loss
+
 ## 2D 信息如何用
 - 使用2 conv进行feature extration, Project to 3D
 - 2D & 3D feature fusion
