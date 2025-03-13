@@ -1,3 +1,10 @@
+# 一些方向
+## voxel-based NeRFs methods
+demonstrated powerful performance and the voxel-grid representation
+- Instant neural graphics primitives with a multiresolution hash encoding
+- Direct voxel grid optimization: Super-fast convergence for radiance fields reconstruction, Nov 2021
+- Plenoxels: Radiance fields without neural networks
+
 ## 综述
 1. seen:
 - 3D Semantic Scene Completion: A Survey （2022）
