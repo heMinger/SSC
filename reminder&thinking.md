@@ -1,3 +1,7 @@
+## UniOcc
+2D feature encoder -> 2D-3D transformer -> 3D encoder -> occupancy head
+- $\color{red}{最后接的是occupancy head 不是SSC  head, 可以直接拿来用？？？}$
+
 ## survey
 1. 我能找到的综述都是21年的了，好几年没有综述了，最近技术又发展了，真的可以写篇综述
 - 3D Semantic Scene Completion and Occupancy Prediction for Autonomous Driving: A Survey - 23年的文章
