@@ -1,3 +1,8 @@
+## point cloud compression
+这是学院的一个讲座，把Point cloud压缩到implicit space, 感觉有点像Latent diffusion那种革新！！！
+![image](https://github.com/user-attachments/assets/bf9841f7-722c-47d1-9c8e-56bc60601a8c)
+
+
 ## UniOcc
 2D feature encoder -> 2D-3D transformer -> 3D encoder -> occupancy head
 - $\color{red}{最后接的是occupancy head 不是SSC  head, 可以直接拿来用？？？}$
