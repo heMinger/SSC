@@ -5,6 +5,9 @@ demonstrated powerful performance and the voxel-grid representation
 - Direct voxel grid optimization: Super-fast convergence for radiance fields reconstruction, Nov 2021
 - Plenoxels: Radiance fields without neural networks
 
+## Open-Vocabulary Scene Understanding
+- CLIP [17] and ALIGN (OVO 文章中提到的)
+
 ## 综述
 1. seen:
 - 3D Semantic Scene Completion: A Survey （2022）
