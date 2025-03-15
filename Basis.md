@@ -1,4 +1,6 @@
-## 显示3D表示
+## 3D表示
+1. neural field:
+- an MLP learns a mapping from encoded coordinates to some output.
 1. Voxel grid
    - 规则立方体网格，每个体素存储颜色/语义/占据状态
    - 优点：直接存储，利于物理模拟，体积渲染
