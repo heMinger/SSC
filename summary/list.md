@@ -15,7 +15,8 @@
 - NDC-Scene (2023): MonoScene improvement (feature/pose/ ambiguity + computation imbalance); attetion
 - MonoScene (2022): single monocular RGB image; 3D context relation prior; 2D Unet + FLoSP (Feature Line of Sight Projection, 2D-to-3D) + 3D Unet(3D CRP) + completion head
 - FB-BEV: transformer-based (spatial cross-attention, depth consistency); forward+backward BEV; multi-view images; (BEV Representation from Forward-Backward View Transformations
-- 
+- StereoScene (2024): transformer-based; Stereo Image; BEV+Stereo;
+- BEVFormer (2022): transformer-based (spatialtemporal transformer); multi-view multi-frame (spatial cross-attention + temporal self-attention); BEV (Learning Bird's-Eye-View Representation for Multi-Camera Images via Spatiotemporal Transformers
 
 - - - - - - - - - - - - - - - - - - - - - - - 
 - Two Stream 3D SSC (2019): depth + semantic (two streams); 3D CNN (跟transformer-based的区别是，这里的3D CNN既用来处理3D volume提取特征，也用来最终的prediction(softmax layer), 但是transformer-based方法只有最后的MLP layer用来预测结果 ; 也有把2D 信息提取到3D 的步骤
@@ -27,10 +28,13 @@
 
 - - - -  - - - - - 
 - Dilated Convolution (2016): larger perspective field; contextual information (Multi-Scale Context Aggregation by Dilated Convolutions
-- 
+- CoReNet (2020): RGB image->3D scene (Coherent 3D scene reconstruction from a single RGB image
+- AIC (2020): 3D conv-> 3 * 1D conv => adaptive respective field; Anisotropic Convolution Networks for 3D Semantic Scene Completion
+- ViT
 
 - - - - - - 
 *TODO*
 - SC-Diff: 3D Shape Completion With Latent Diffusion Models
 - NDC-Scene
 - FB-BEV
+- Stereo-Scene
