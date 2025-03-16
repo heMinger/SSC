@@ -4,7 +4,7 @@
 - Symphonise (2023): transformer-based; instance query; (Symphonize 3D Semantic Scene Completion with Contextual Instance Queries
 - SurroundOcc (2023): transformer-based; multi-scale multi-view RGB images; 2D-3D spatial attention;  (Multi-Camera 3D Occupancy Prediction for Autonomous Driving
 - OccNet (2023): transformer-based (BEVFormer); multi-view RGB images; BEV encoder; spatial-temporal-transformer block; cascaded Voxel Decoder (Scene as Occupancy
-- S4C (2023): nerual field; volumetric semantic rendering; without 3D GT(Ground Truth); (Self-Supervised Semantic Scene Completion with Neural Fields
+- S4C (2023): nerual field; volumetric semantic rendering; without 3D GT(Ground Truth); self-supervised (multi-view consistency); (Self-Supervised Semantic Scene Completion with Neural Fields
 
 - - - - - - - - - - - - - - - - - - - - - - - 
 - Two Stream 3D SSC (2019): depth + semantic (two streams); 3D CNN (跟transformer-based的区别是，这里的3D CNN既用来处理3D volume提取特征，也用来最终的prediction(softmax layer), 但是transformer-based方法只有最后的MLP layer用来预测结果 ; 也有把2D 信息提取到3D 的步骤
